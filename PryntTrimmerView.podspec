@@ -22,6 +22,7 @@ Second tool is a crop view, to preview a video and select the part of the video 
   s.author           = { 'henryhuck@hotmail.fr' => 'henryhuck@hotmail.fr' }
   s.source           = { :git => 'https://github.com/prynt/PryntTrimmerView.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
+  s.swift_version = '3.3'
   s.source_files = 'PryntTrimmerView/Classes/**/*'
 
 end
