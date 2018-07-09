@@ -52,14 +52,14 @@ public protocol TrimmerViewDelegate: class {
 
     // MARK: Subviews
 
-    private let trimView = UIView()
+    public let trimView = UIView()
     private let leftHandleView = HandlerView()
     private let rightHandleView = HandlerView()
-    private let positionBar = UIView()
-    private let leftHandleKnob = UIView()
-    private let rightHandleKnob = UIView()
-    private let leftMaskView = UIView()
-    private let rightMaskView = UIView()
+    public let positionBar = UIView()
+    public let leftHandleKnob = UIView()
+    public let rightHandleKnob = UIView()
+    public let leftMaskView = UIView()
+    public let rightMaskView = UIView()
 
     // MARK: Constraints
 

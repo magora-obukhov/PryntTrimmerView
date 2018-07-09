@@ -30,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5267286420F35A5C00D3F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA058622208FE042004E868E;
+			remoteInfo = PryntTrimmerView;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -276,6 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5267286520F35A5C00D3F1A0 /* PBXTargetDependency */,
 			);
 			name = PryntTrimmerView_Example;
 			productName = PryntTrimmerView;
@@ -551,6 +559,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5267286520F35A5C00D3F1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA058622208FE042004E868E /* PryntTrimmerView */;
+			targetProxy = 5267286420F35A5C00D3F1A0 /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* PryntTrimmerView_Example */;
